@@ -14,7 +14,7 @@ export function DashboardHeader({ username }: DashboardHeaderProps) {
   const router = useRouter()
 
   const handleLogout = () => {
-    // Add your logout logic here
+    // Connecting SQL later
     router.push("/auth/login")
   }
 
